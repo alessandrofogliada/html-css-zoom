@@ -7,6 +7,7 @@
 
 /* Regole Header */
 
+
 #intestazione{
     color: white;
     width: 100%;
@@ -42,15 +43,16 @@ main{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    position: relative;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
     /* debug */
     background-color: brown;
 }
 
 .ridimensionamentoimg{
     background-size: cover;
-    height: 13%;
-    width: 100%;
+    width: 15%;
+    position: relative;
     border-left: black solid 4px;
     border-bottom: black solid 8px;
 }
@@ -59,9 +61,14 @@ main{
     background-color: #4b4b4b56;
     color: white;
     position: absolute;
-    top: 70px;
-    left: 5px;
 
+}
+
+.interfacciautente {
+	width: 100%;
+    height: fit-content;
+	display: flex;
+	justify-content: flex-start;
 }
 
 /* Regole Footer */
